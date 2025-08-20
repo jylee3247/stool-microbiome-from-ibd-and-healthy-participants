@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15342901.svg)](https://doi.org/10.5281/zenodo.15342901)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16909168.svg)](https://doi.org/10.5281/zenodo.16909168)
 # Description
 - Title: **Gut microbiome study of inflammatory bowel disease in a Korean population cohort**
 - Authors: **Hyun Sik Kim, Jae-Yun Lee, Bo-Hyung Kim, and Chang Kyun Lee**
