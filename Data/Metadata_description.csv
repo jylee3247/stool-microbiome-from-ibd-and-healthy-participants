@@ -1,0 +1,54 @@
+Variables,Category,Data_type,Description
+sample_id,ID,Character,Unique identifier assigned to each participant
+Group,Group,Categorical,Clinical classification of participants
+Age,Demographics,Numeric,Age at the time of sample collection (years)
+Gender,Demographics,Categorical,Biological sex
+BMI,Anthropometrics,Numeric,Body mass index
+Height_cm,Anthropometrics,Numeric,Standing height measured in centimeters
+Weight_kg,Anthropometrics,Numeric,Body weight measured in kilograms
+Alcohol,Lifestyle,Categorical,Alcohol consumption status
+Smoking,Lifestyle,Categorical,Smoking status
+BSS_score,Clinical_assessment,Ordinal,Bristol Stool Scale score for stool consistency
+Disease_duration_year,IBD_features,Numeric,Duration of the disease (years)
+Extraintestinal_manifestation,IBD_features,Binary,Presence of extraintestinal manifestations associated with disease
+Disease_behaviour_CD,CD_features,Categorical,Disease behavior in Crohn¡¯s disease based on the Montreal Classification
+Disease_loc_CD,CD_features,Categorical,Disease location in Crohn¡¯s disease based on the Montreal Classification
+Perianal_disease,CD_features,Binary,Presence of perianal disease in Crohn¡¯s disease
+Upper_GI_tract,CD_features,Binary,Presence of upper gastrointestinal tract involvement in Crohn¡¯s disease
+Advanced_UC_behaviour,UC_features,Binary,Presence of advanced ulcerative colitis disease behavior
+Disease_loc_UC,UC_features,Categorical,Disease location in ulcerative colitis based on the Montreal Classification
+HBI_score,Disease_activity_indices,Numeric,Harvey-Bradshaw Index score
+Total_Mayo_score,Disease_activity_indices,Numeric,Total Mayo score
+ALP,Clinical_measurements,Numeric,Serum alkaline phosphatase concentration
+ALT,Clinical_measurements,Numeric,Serum alanine aminotransferase concentration
+AST,Clinical_measurements,Numeric,Serum aspartate aminotransferase concentration
+Albumin,Clinical_measurements,Numeric,Serum albumin concentration
+BUN,Clinical_measurements,Numeric,Serum blood urea nitrogen concentration
+CRP,Clinical_measurements,Numeric,Serum C-reactive protein concentration
+Creatinine,Clinical_measurements,Numeric,Serum creatinine concentration
+DBP,Clinical_measurements,Numeric,Diastolic blood pressure (mmHg)
+Direct_bilirubin,Clinical_measurements,Numeric,Serum direct bilirubin concentration
+ESR,Clinical_measurements,Numeric,Erythrocyte sedimentation rate
+Glucose,Clinical_measurements,Numeric,Serum glucose concentration
+HDL_cholesterol,Clinical_measurements,Numeric,Serum high-density lipoprotein cholesterol concentration
+Hb,Clinical_measurements,Numeric,Hemoglobin concentration
+Hematocrit,Clinical_measurements,Numeric,Hematocrit percentage
+LDL_cholesterol,Clinical_measurements,Numeric,Serum low-density lipoprotein cholesterol concentration
+Platelet,Clinical_measurements,Numeric,Platelet count
+Protein,Clinical_measurements,Numeric,Total serum protein concentration
+RBC,Clinical_measurements,Numeric,Red blood cell count
+SBP,Clinical_measurements,Numeric,Systolic blood pressure (mmHg)
+Total_bilirubin,Clinical_measurements,Numeric,Serum total bilirubin concentration
+Total_cholesterol,Clinical_measurements,Numeric,Serum total cholesterol concentration
+Triglyceride,Clinical_measurements,Numeric,Serum triglyceride concentration
+WBC,Clinical_measurements,Numeric,White blood cell count
+fecal_Calprotectin,Clinical_measurements,Numeric,Fecal calprotectin concentration
+ASCA,Clinical_measurements_serology,Categorical,Anti-Saccharomyces cerevisiae antibody status
+pANCA,Clinical_measurements_serology,Categorical,Perinuclear anti-neutrophil cytoplasmic antibody status
+Current_use_of_biologics,Medications,Binary,Current treatment with any biologic therapy
+Anti_TNF,Medications,Binary,Current use of anti-tumor necrosis factor agents
+Ustekinumab,Medications,Binary,Current use of ustekinumab
+Vedolizumab,Medications,Binary,Current use of vedolizumab
+Immunomodulators,Medications,Binary,Current use of immunomodulator therapy
+JAK_inhibitors,Medications,Binary,Current use of Janus kinase inhibitors
+Systemic_steroid,Medications,Binary,Current use of systemic corticosteroids
